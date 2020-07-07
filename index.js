@@ -111,4 +111,4 @@ client.on("guildMemberRemove", async (member) => {
  
 });
 
-client.login(process.env.TOKEN); //Ligando o Bot caso ele consiga acessar o token
+client.login(CLIENT_TOKEN); //Ligando o Bot caso ele consiga acessar o token
